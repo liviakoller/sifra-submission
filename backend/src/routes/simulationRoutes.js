@@ -29,7 +29,7 @@ router.post("/simulate", async (req, res) => {
 
         for (let turn = 0; turn < 3; turn++) {
 
-            //patient
+            
             send("startMessage", { role: "patient" });
             const patientMsg = await simulatePatientTurnStreaming({
                 patientSystemPrompt,
@@ -41,7 +41,7 @@ router.post("/simulate", async (req, res) => {
             mhcHistory.push({ role: "user", content: patientMsg });
             patientHistory.push({ role: "assistant", content: patientMsg });
 
-            //mhc
+            
             send("startMessage", { role: "mhc" });
             const mhcMsg = await generateMHCTurnStreaming({
                 mhcSystemPrompt,

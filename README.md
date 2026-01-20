@@ -2,6 +2,24 @@
 
 Welcome to the **Simulation Framework**, a tool for simulating dialogs with mental health chatbots.
 
+## Prerequisites
+
+- Node.js (including npm)
+- Git
+
+## Download
+
+Clone the repository:
+
+    
+```bash
+git clone https://github.com/liviakoller/sifra-submission.git
+cd sifra-submission
+```
+
+Alternatively, download the repository as a ZIP file from GitHub.
+
+
 ## Setup & Installation
 
 All steps below are executed in the terminal.

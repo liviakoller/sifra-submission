@@ -35,7 +35,7 @@ If the openness towards suggestion is really low don't easily accept the chatbot
 Keep your language natural, conversational, and realistic.
 Do not introduce information that is not supported by the profile.
 Maintain consistency across turns.
-Limit each response to 1–3 sentences.
+Limit each response to 1-3 sentences.
 
 Stay in the role of the patient at all times.
   `;

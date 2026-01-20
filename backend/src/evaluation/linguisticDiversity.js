@@ -70,10 +70,10 @@ export function evaluateLinguisticDiversity(transcript) {
     });
 
 
-    // TTR
+    
     const ttrScore = ttr(allTokens);
 
-    // averaged jaccard
+   
     const avgJaccard = jaccardScores.length > 0
         ? jaccardScores.reduce((a,b) => a+b,0) / jaccardScores.length
         : 0;

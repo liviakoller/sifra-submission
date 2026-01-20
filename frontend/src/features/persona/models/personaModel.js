@@ -1,8 +1,8 @@
 /**
  * @typedef {Object} Persona
- * @property {string} name - Name of the persona
- * @property {number|null} age - Age of the persona
- * @property {"employed"|"unemployed"|"not_specified"} job - Employment status // von chatgpt -> jsdoc (nochmal schauen was das is / notwendig??)
+ * @property {string} name 
+ * @property {number|null} age 
+ * @property {"employed"|"unemployed"|"not_specified"} job 
  */
 
 export const emptyPersona = {
