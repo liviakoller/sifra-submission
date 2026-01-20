@@ -1,4 +1,3 @@
-// components/RangeInput.jsx
 export default function RangeInput({ label, name, value, onChange, min = 0, max = 100, leftLabel, rightLabel }) {
     return (
         <div className="flex flex-col">
